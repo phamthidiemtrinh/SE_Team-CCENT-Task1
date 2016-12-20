@@ -1,19 +1,38 @@
-## 1. What is a Network?
 
-A network consists of two or more computers that are linked in order to share resources (such as printers and CDs), exchange files, or allow electronic communications. The computers on a network may be linked through cables, telephone lines, radio waves, satellites, or infrared light beams.
-- Two very common types of networks include:
-  *  Local Area Network(LAN)
-  * Wide Area Network (WAN)
-  
-##2. Common physical component of a network
-- PC: the devices which act as the end points in a network ( their reponsibilities are sending and receiving data), also they are severs.
-- Interconnections: Consist of components which acts as the means to transfer data from one point to another in a network, includes :
-  * Network interface card : translating data in to a format to be transferred over a network.
-  * Network media : consting of cables or wireless media providing means for signals to be transmitted.   
-  * Connectors : providing connection points for the media.
-- Switches : The end systems are usually connected to switches which faccilities intellegent swiching of data whithin a local network.
-- Routers : be used to connect different network together and they support to choose the best path for data transfer between two networks.
-- WLAN Devices : Wireless LAN of WAN devices conect network devices.
+## 1. Mạng là gì?
+
+-Mạng hê thống là mạng lưới bao gồm hai hoặc nhiều máy tính được liên kết để chia sẻ tài nguyên (như máy in và đĩa CD), trao đổi file, hoặc cho phép truyền thông điện tử. Các máy tính trên mạng có thể được kết nối thông qua dây cáp, sóng vô tuyến, vệ tinh, hoặc sóng hồng ngoại.
+
+- Hai loại rất phổ biến của mạng là :
+ - Local Area Network (LAN)
+ - Wide Area Network (WAN)
+## 2. thành phần vật lý thường gặp của một mạng
+
+- PC: các thiết bị là điểm cuối trong một mạng (có vai trò gửi và nhận dữ liệu) đồng thời cũng là những severs.
+- Interconnections: Bao gồm các thành phần là phương tiện để chuyển dữ liệu từ điểm này đến điểm khác trong một mạng, bao gồm:
+ - Network interface Card (giao diện mạng) : dịch dữ liệu thành một đinh dạng để truyền.
+Mạng truyền thông: consting dây cáp hoặc phương tiện truyền thông không dây cung cấp phương tiện cho các tín hiệu được truyền đi.
+Kết nối: cung cấp điểm đấu nối cho các phương tiện truyền thông.
+Công tắc: Các hệ thống đầu cuối thường được kết nối với công tắc faccilities hở mạch intellegent dữ liệu whithin một mạng lưới địa phương.
+Bộ định tuyến: được sử dụng để kết nối các mạng khác nhau với nhau và họ hỗ trợ để lựa chọn con đường tốt nhất để truyền dữ liệu giữa hai mạng.
+WLAN Thiết bị: Wireless LAN WAN thiết bị mạng thiết bị conect. ## 3. Giải thích một sơ đồ mạng
+
+
+Router:
+
+
+Công tắc điện:
+
+
+chức năng 4.Resource chia sẻ và lợi ích
+
+Dữ liệu và ứng dụng: người dùng có thể chia sẻ file, sofwaves chương trình ứng dụng.
+Nguồn: bao gồm các thiết bị đầu vào và đầu ra thiết bị.
+lưu trữ mạng: lưu trữ gắn trực tiếp (DAS), mạng attched lưu trữ (NAS), mạng lưu trữ (SAN)
+các thiết bị sao lưu: (chẳng hạn như trình điều khiển băng) cung cấp một phương tiện trung tâm để lưu các tập tin từ nhiều máy tính, khả năng lưu trữ, việc tiếp tục kinh doanh, và thảm họa hồi phục.
+ứng dụng người dùng 5.Network
+Liên GitHub API Đào tạo cửa tiệm Blog về
+© 2016 GitHub , Inc. Điều khoản Riêng tư Bảo vệ Trạng thái Cứu giúp.
 
 ## 3. Interpreting a Network Diagram
 
