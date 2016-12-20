@@ -11,28 +11,11 @@
 - PC: các thiết bị là điểm cuối trong một mạng (có vai trò gửi và nhận dữ liệu) đồng thời cũng là những severs.
 - Interconnections: Bao gồm các thành phần là phương tiện để chuyển dữ liệu từ điểm này đến điểm khác trong một mạng, bao gồm:
  - Network interface Card (giao diện mạng) : dịch dữ liệu thành một đinh dạng để truyền.
-Mạng truyền thông: consting dây cáp hoặc phương tiện truyền thông không dây cung cấp phương tiện cho các tín hiệu được truyền đi.
-Kết nối: cung cấp điểm đấu nối cho các phương tiện truyền thông.
-Công tắc: Các hệ thống đầu cuối thường được kết nối với công tắc faccilities hở mạch intellegent dữ liệu whithin một mạng lưới địa phương.
-Bộ định tuyến: được sử dụng để kết nối các mạng khác nhau với nhau và họ hỗ trợ để lựa chọn con đường tốt nhất để truyền dữ liệu giữa hai mạng.
-WLAN Thiết bị: Wireless LAN WAN thiết bị mạng thiết bị conect. ## 3. Giải thích một sơ đồ mạng
-
-
-Router:
-
-
-Công tắc điện:
-
-
-chức năng 4.Resource chia sẻ và lợi ích
-
-Dữ liệu và ứng dụng: người dùng có thể chia sẻ file, sofwaves chương trình ứng dụng.
-Nguồn: bao gồm các thiết bị đầu vào và đầu ra thiết bị.
-lưu trữ mạng: lưu trữ gắn trực tiếp (DAS), mạng attched lưu trữ (NAS), mạng lưu trữ (SAN)
-các thiết bị sao lưu: (chẳng hạn như trình điều khiển băng) cung cấp một phương tiện trung tâm để lưu các tập tin từ nhiều máy tính, khả năng lưu trữ, việc tiếp tục kinh doanh, và thảm họa hồi phục.
-ứng dụng người dùng 5.Network
-Liên GitHub API Đào tạo cửa tiệm Blog về
-© 2016 GitHub , Inc. Điều khoản Riêng tư Bảo vệ Trạng thái Cứu giúp.
+ - Network media: bao gồm dây cáp hoặc phương tiện truyền thông không dây cho phép các tín hiệu được truyền đi.
+ - Connectors: cung cấp điểm đấu nối cho các phương tiện truyền thông.
+- Switches : Các hệ thống đầu cuối thường được kết nối với switches.
+- Routers: được sử dụng để kết nối các network khác nhau và họ hỗ trợ lựa chọn con đường tốt nhất để truyền dữ liệu giữa hai network.
+- WLAN Devices : Wireless LAN of WAN devices conect network devices
 
 ## 3. Interpreting a Network Diagram
 
@@ -46,15 +29,40 @@ Liên GitHub API Đào tạo cửa tiệm Blog về
 
 ![](http://ptgmedia.pearsoncmg.com/images/art_wilkins_nwdgcrint/elementLinks/thfig1_wilkins_network-diagram.jpg)
 
-## 4.Resource-sharing functions and benefits
-- Data and application : users can share files, sofwaves application program.
-- Resource: including input devices and output devices.
-- Network storage: Direct attached storage (DAS), network attched storage (NAS), storage area network (SANs)
-- Backup devices: (such as tape drivers) providing a central means to save files from multiple computers, archiving capability, business continuance, and recovering disaster.
+## 4.Resource chia sẻ và lợi ích
 
-## 5.Network user applications
-- 
+- Dữ liệu và ứng dụng: người dùng có thể chia sẻ file, sofwaves chương trình ứng dụng.
+- Nguồn: bao gồm các thiết bị đầu vào và thiết bị đầu ra.
+- lưu trữ mạng: Direct attached storage (DAS), network attched storage (NAS), storage area network (SANs)
+- các thiết bị sao lưu: cung cấp  phương tiện trung tâm để lưu các tập tin từ nhiều máy tính, có khả năng lưu trữ và khắc phục sự cố .
+## 5. Ứng ụng mạng:
 
-## 2. What is the Internet?
+- E-mail( yahoo, gmail, outlook...)
+- trình duyệt web (chrom, ...)
+- Chat (yahoo, facebook, zalo...)
+- ứng dụng làm việc tập thể.
+- Cơ sở dữ liệu (file sevrers)
 
-Internet is a worldwide system of computer network
+## 6.Ảnh hưởng của các ứng ụng người ùng lên hệ thống mạng
+
+-  Bacth Application: không có sự tương tác giữa người sử dụng với hệ thống ( có thể thời gian sẽ lâu), băng thông quan trọng nhưng không cấp thiết.
+- interactive application : có sự tương tác giữa hệ thống và người sử dụng (truy vấn kiểm kê, cập nhật liệu), thời gian nhập liệu là quan trọng nhưng không quá cấp thiết.
+- real-time application : có sự tương tác giữa người với người, độ chờ cấp thiết ( thời gian truyền dữ liệu trong hệ thống càng ít càng tốt
+
+## 7.Đặc tính kỹ thuật của mạng
+
+- Tốc độ đường truyền
+- Chi phí của viêc xây đựng hệ thống mạng
+- tính bảo mật của mạng.
+- Tính sẵn sàng của mạng.
+- Khả năng mở rộng mạng
+- Độ tin cậy của ường truyền trong hệ thoóng mạng
+- Sơ đồ mạng
+
+## 8. Sơ đồ đấu nối vật lý
+
+- đấu nối dạng Bus: các máy đấu nối vào một cáp trục ở giữa, khi một máy truyền tín hiệu thì toàn bộ các máy còn lại đều nhận được dữ liệu.
+- đấu nối dạng vòng: các máy đấu nối liên tục với nhau thành dạng vòng tròn. Để tính dự phòng cao hơn sẽ có sơ dồ kép, các vòng có chiều truyền dữ liệu khác nhau, khi 1 vòng xảy ra lỗi thì còn vòng còn lại hoạt đông bình thường,
+- đấu nối dạng sao: máy truyền dữ liệu phải thông qua maý trung tâm và chỉ thị ra máy nhận ữ liệu, nếu máy trung tâm xảy ra lỗi thì toàn bộ hệ thống ừng hoạt động. Có dạng sao mở rộng, chia hệ thống ra nhiều cụm nhỏ với các máy trung tâm nhỏ khác nhau, nếu một máy trung tâm của một cụm xảy ra lỗi thì chỉ cụm đó dừng hoạt động và các cụm còn lại vẫn hoạt động bình thường.
+## 9.Con đường di chuyển dữ liệu trong hệ thống mạng
+- có thể con dường di chuyển đữ liệu trong mảng trùng với sơ dồ vật lý hoặc không
