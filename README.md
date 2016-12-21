@@ -1,7 +1,8 @@
+# **Mạng căn bản**
 
 ## 1. Mạng là gì?
 
--Mạng hê thống là mạng lưới bao gồm hai hoặc nhiều máy tính được liên kết để chia sẻ tài nguyên (như máy in và đĩa CD), trao đổi file, hoặc cho phép truyền thông điện tử. Các máy tính trên mạng có thể được kết nối thông qua dây cáp, sóng vô tuyến, vệ tinh, hoặc sóng hồng ngoại.
+- Mạng hê thống là mạng lưới bao gồm hai hoặc nhiều máy tính được liên kết để chia sẻ tài nguyên (như máy in và đĩa CD), trao đổi file, hoặc cho phép truyền thông điện tử. Các máy tính trên mạng có thể được kết nối thông qua dây cáp, sóng vô tuyến, vệ tinh, hoặc sóng hồng ngoại.
 
 - Hai loại rất phổ biến của mạng là :
  - Local Area Network (LAN)
@@ -51,6 +52,7 @@
 
 ## 7.Đặc tính kỹ thuật của mạng
 
+
 - Tốc độ đường truyền
 - Chi phí của viêc xây đựng hệ thống mạng
 - tính bảo mật của mạng.
@@ -61,8 +63,34 @@
 
 ## 8. Sơ đồ đấu nối vật lý
 
+![](http://echip.vietnamnetjsc.vn/2013/04/06/07/26/Network00202.png)
+
+
 - đấu nối dạng Bus: các máy đấu nối vào một cáp trục ở giữa, khi một máy truyền tín hiệu thì toàn bộ các máy còn lại đều nhận được dữ liệu.
-- đấu nối dạng vòng: các máy đấu nối liên tục với nhau thành dạng vòng tròn. Để tính dự phòng cao hơn sẽ có sơ dồ kép, các vòng có chiều truyền dữ liệu khác nhau, khi 1 vòng xảy ra lỗi thì còn vòng còn lại hoạt đông bình thường,
-- đấu nối dạng sao: máy truyền dữ liệu phải thông qua maý trung tâm và chỉ thị ra máy nhận ữ liệu, nếu máy trung tâm xảy ra lỗi thì toàn bộ hệ thống ừng hoạt động. Có dạng sao mở rộng, chia hệ thống ra nhiều cụm nhỏ với các máy trung tâm nhỏ khác nhau, nếu một máy trung tâm của một cụm xảy ra lỗi thì chỉ cụm đó dừng hoạt động và các cụm còn lại vẫn hoạt động bình thường.
+
+![](http://2.bp.blogspot.com/-6KrFRX0ehD0/VoHrhB1eXkI/AAAAAAAAAKA/CeyIJFBhB0s/s1600/vong.png)
+
+
+
+- đấu nối dạng vòng: các máy đấu nối liên tục với nhau thành dạng vòng tròn. Để tính dự phòng cao hơn sẽ có sơ dồ kép (dual-ring), các vòng có chiều truyền dữ liệu khác nhau, khi 1 vòng xảy ra lỗi thì còn vòng còn lại vẫn hoạt đông bình thường.
+
+![](http://img.quantrimang.com/photos/image/092011/14/BitTorrent-1.jpg)
+
+- đấu nối dạng sao: máy truyền dữ liệu thông qua maý trung tâm và chỉ thị ra máy nhận dữ liệu, nếu máy trung tâm xảy ra lỗi thì toàn bộ hệ thống ngừng hoạt động. Có dạng sao mở rộng, chia hệ thống ra nhiều cụm nhỏ với các máy trung tâm nhỏ khác nhau, nếu một máy trung tâm của một cụm xảy ra lỗi thì chỉ cụm đó dừng hoạt động và các cụm còn lại vẫn hoạt động bình thường.
+
 ## 9.Con đường di chuyển dữ liệu trong hệ thống mạng
 - có thể con dường di chuyển đữ liệu trong mảng trùng với sơ dồ vật lý hoặc không
+
+## 10. Kiến trúc đấu nối
+- full-mesh: 
+ - từ một thiết bị đó đường kết nối tới tất cả các thiết bị còn lại trong hệ thống.
+ - tính chịu lỗi cao, tính dự phòng cao.
+ - chi phí quản lí đắt.
+- pastial-mesh : cải tiến từ full-mesh, chỉ lưới môt phần ( nối các điểm quan trọng, giảm thiểu đường kết nối dư thừa) đảm bảo tính dự phòng và tiết kiệm chi phí.
+
+## 11. kết nối đường truyền internet
+- kết nối ADSL (Asymmetric Digital Subscriber Line) - đường truyền kết nối dùng chung- đường thuê bao bất đối xứng.
+- cable (cáp)  cáp quang
+- CSU/DSU  (leased line) - kênh thuê riêng - kết nối trực tiếp các node mạng thông qua kênh truyền dẫn số liệu thuê riêng.
+
+ 
