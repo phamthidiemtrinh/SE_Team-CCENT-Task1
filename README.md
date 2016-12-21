@@ -63,20 +63,20 @@
 
 ## 8. Sơ đồ đấu nối vật lý
 
-![](http://echip.vietnamnetjsc.vn/2013/04/06/07/26/Network00202.png)
-
-
 - đấu nối dạng Bus: các máy đấu nối vào một cáp trục ở giữa, khi một máy truyền tín hiệu thì toàn bộ các máy còn lại đều nhận được dữ liệu.
 
-![](http://2.bp.blogspot.com/-6KrFRX0ehD0/VoHrhB1eXkI/AAAAAAAAAKA/CeyIJFBhB0s/s1600/vong.png)
+![](http://echip.vietnamnetjsc.vn/2013/04/06/07/26/Network00202.png)
 
 
 
 - đấu nối dạng vòng: các máy đấu nối liên tục với nhau thành dạng vòng tròn. Để tính dự phòng cao hơn sẽ có sơ dồ kép (dual-ring), các vòng có chiều truyền dữ liệu khác nhau, khi 1 vòng xảy ra lỗi thì còn vòng còn lại vẫn hoạt đông bình thường.
 
-![](http://img.quantrimang.com/photos/image/092011/14/BitTorrent-1.jpg)
+![](http://2.bp.blogspot.com/-6KrFRX0ehD0/VoHrhB1eXkI/AAAAAAAAAKA/CeyIJFBhB0s/s1600/vong.png)
+
 
 - đấu nối dạng sao: máy truyền dữ liệu thông qua maý trung tâm và chỉ thị ra máy nhận dữ liệu, nếu máy trung tâm xảy ra lỗi thì toàn bộ hệ thống ngừng hoạt động. Có dạng sao mở rộng, chia hệ thống ra nhiều cụm nhỏ với các máy trung tâm nhỏ khác nhau, nếu một máy trung tâm của một cụm xảy ra lỗi thì chỉ cụm đó dừng hoạt động và các cụm còn lại vẫn hoạt động bình thường.
+
+![](http://img.quantrimang.com/photos/image/092011/14/BitTorrent-1.jpg)
 
 ## 9.Con đường di chuyển dữ liệu trong hệ thống mạng
 - có thể con dường di chuyển đữ liệu trong mảng trùng với sơ dồ vật lý hoặc không
