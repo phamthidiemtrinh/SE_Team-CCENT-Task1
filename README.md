@@ -110,6 +110,7 @@
  - Đảm bảo tính tương thích về mặt công nghệ.
  - thúc đẩy sự phát triển công nghệ ( do không còn tính độc quyền)
  - đơn giản học trong việc nghiên cứu và học tập
+ 
 ##  3. mô hình OSI ( open system interconnection)
 ![](http://tuhocmang.com/wp-content/uploads/2014/07/OSI.png)
 
@@ -121,4 +122,17 @@
   - lớp Session: thiết lập, quản lý và giải phóng các session giữa các ứng dụng ( tổ chức các phiên kết nối giữa các ứng dụng)
   - lớp Presentation: dảm bảo dữ liệu từ nơi guiẻ đến nơi nhận có thể đọc ddược, cung cấp cơ chế mã hóa.
   - lớp Application: giao tiếp trực tiếp với người dùng,cung cấp các ứng dụng mạng,cung cấp cơ chế xác thực người dùng.
+  
+ - Cơ chế hoạt động
+ ![](http://tuhocmang.com/wp-content/uploads/2014/07/data.png)
+  - khi một host ( sender) dửi dữ liệu (user data) thì user data sẽ đi từ lớp 7 xuống lớp 1. khi qua mỗi lớp thì user data sẽ được đóng thêm một header ( header là phần thong tin quản lý của gói tin). khi đi đến lớp 2 , gói tin sẽ ddược đóng thêm phần kiểm tra lỗi FCS,đến lớp 1 thì dữ liệu được chuyển thì các bit nhị phân và di chuyển lên đường truyền
+ - một host nhận ữ liệu sẽ làm ngược lại  (gỡ bỏ từng header từ lớp 2 đến lớp 7), ở lớp 1 các dãy nhị phân được chuyển dổi thành dữ liệu tương ứng.
+- Đơn vị dữ liệu:
+![](http://tuhocmang.com/wp-content/uploads/2014/07/1.png)
+ - ứng với lớp physical : bits
+ - ứng với lớp data link : frames
+ - ứng với lớp network: packets
+ - ứng với lớp transport : segment
+ 
+ 
  
