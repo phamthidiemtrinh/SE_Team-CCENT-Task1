@@ -143,6 +143,6 @@
 - so sánh mô hình TCP//IP và mô hình OSI:
 ![](http://tuhocmang.com/wp-content/uploads/2014/07/3.png)
 
--đa số các hệ thống sử dụng các giao thức của chồng giao thức TCP/IP nhưng lại toàn tham chiếu đến mô hình OSI 
+- đa số các hệ thống sử dụng các giao thức của chồng giao thức TCP/IP nhưng lại toàn tham chiếu đến mô hình OSI 
  
  
