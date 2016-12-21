@@ -37,6 +37,7 @@
 - Nguồn: bao gồm các thiết bị đầu vào và thiết bị đầu ra.
 - lưu trữ mạng: Direct attached storage (DAS), network attched storage (NAS), storage area network (SANs)
 - các thiết bị sao lưu: cung cấp  phương tiện trung tâm để lưu các tập tin từ nhiều máy tính, có khả năng lưu trữ và khắc phục sự cố .
+
 ## 5. Ứng ụng mạng:
 
 - E-mail( yahoo, gmail, outlook...)
