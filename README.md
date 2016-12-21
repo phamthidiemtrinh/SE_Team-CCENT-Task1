@@ -94,3 +94,31 @@
 - CSU/DSU  (leased line) - kênh thuê riêng - kết nối trực tiếp các node mạng thông qua kênh truyền dẫn số liệu thuê riêng.
 
  
+# OSI - TCP//IP
+
+## 1. Truyền thông host-to-host
+- host là một thực thể có khả năng truyền được các ứng dụng (PC...)
+-  xây đựng mô hình cho truyền thông từ host tới host
+ - Older model : properetary(tính độc quyền) chỉ những thực thể có cùng nguồn gốc (hãng) mới có thể truyền với nhau; mặt khác chúng chỉ sử dụng được các app , sofwaves của chính hãng cung cấp.
+ - Standards- base model: tương tác đươc với tất cả thực thể, tương thích với cả những phần mền của nhiều hãng khác nhau; xây dựng dựa trên phương pháp phân lớp.
+ 
+## 2. Mô hình phân lớp
+- Để truyền dữ liệu từ một host đến một host khác cần qua nhiều công việc, vì vậy cần chia thành nhiều nhóm công việc có tính chất tương tự nhau . việc chia nhóm công việc được gọi là phân lớp.
+- Lợi ích của phân lớp :
+ - Giảm độ phức tạp của việc truyền dữ liệu, chuyên môn hóa sản xuất ( công ty nào có thế mạnh về nhóm công việc thì sản xuất các thiết bị hoăc phần mềm cho nhóm công việc đó)
+ - Chuẩn hóa sản phẩm, quy định chuẩn kỹ thuật chung.
+ - Đảm bảo tính tương thích về mặt công nghệ.
+ - thúc đẩy sự phát triển công nghệ ( do không còn tính độc quyền)
+ - đơn giản học trong việc nghiên cứu và học tập
+##  3. mô hình OSI ( open system interconnection)
+![](http://tuhocmang.com/wp-content/uploads/2014/07/OSI.png)
+
+- Trong mô hình phân lớp:
+  - lớp Physical (lớp vật lý): truyền dòng bit thô qua đường truyền vật lý cụ thể. Nó định nghĩa các đặc tính kĩ thuật về điện, cơ, quang, đặc tính kỹ thuật trong việc thiết lập, giải phóng , duy trì một đường truyền nào đó.
+  - lớp Data Link :điều khiển dữ liệu truy nhập vào đường truyền vật lý,giao tiếp vớilớp Network, cung cấp cơ chế dò lỗi
+  - lớp Network :phân bố dữ liệu ( định tuyến các gói dữ liệu),xác định đường đi tối ưu nhất để phân phối dữ liệu,định địa chỉ logic cho hệ thống mạng( địa chỉ IP).
+  - lớp Transport: quản lý các kết nối đầu cuối( end-to-end), xử lí vấn dề truyền dẫn giữa các host, đảm bảo dữ liệu truyền một cách tin cậy từ điểm này đến điểm khác trong mạng, thu hồi hoặc duy trì các kết nối ảo, cung cấp cơ chế dò lỗi, phục hồi dữ liệu.
+  - lớp Session: thiết lập, quản lý và giải phóng các session giữa các ứng dụng ( tổ chức các phiên kết nối giữa các ứng dụng)
+  - lớp Presentation: dảm bảo dữ liệu từ nơi guiẻ đến nơi nhận có thể đọc ddược, cung cấp cơ chế mã hóa.
+  - lớp Application: giao tiếp trực tiếp với người dùng,cung cấp các ứng dụng mạng,cung cấp cơ chế xác thực người dùng.
+ 
