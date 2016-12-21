@@ -7,6 +7,7 @@
 - Hai loại rất phổ biến của mạng là :
  - Local Area Network (LAN)
  - Wide Area Network (WAN)
+ 
 ## 2. thành phần vật lý thường gặp của một mạng
 
 - PC: các thiết bị là điểm cuối trong một mạng (có vai trò gửi và nhận dữ liệu) đồng thời cũng là những severs.
